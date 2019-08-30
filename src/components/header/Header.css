@@ -1,0 +1,39 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  padding: 0 45px;
+  box-sizing: border-box;
+}
+
+.header-conteinerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8cc054;
+}
+
+.header-info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 35px;
+}
+
+.header-lastTimeMessage {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}

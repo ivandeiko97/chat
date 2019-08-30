@@ -1,0 +1,177 @@
+.userMessage {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding-left: 45px;
+  margin: 14px 0 22px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  box-sizing: border-box;
+}
+
+.userMessage__curentUser > .userMessage-wrapper {
+  background-color: #4b4d4a;
+}
+
+.userMessage__curentUser {
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 45px;
+}
+
+.userMessage-wrapper {
+  position: relative;
+  border-radius: 5px;
+  padding: 13px;
+  height: 80px;
+  width: 731px;
+  display: flex;
+  background-color: #e2e2e2;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.userMessage-image img {
+  width: 80px;
+}
+
+.userMessage-info {
+  margin-left: 15px;
+}
+
+.userMessage-name {
+  text-align: left;
+  color:#8cc054;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.userMessage-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.userMessage__curentUser .userMessage-text {
+  color: #fff;
+}
+
+.userMessage-date {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #B1B1B1;
+}
+
+.userMessage-favorite,
+.userMessage-edit {
+  position: absolute;
+  bottom: 8px;
+  right: 9px;
+  cursor: pointer;
+}
+
+.userMessage-delete {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  bottom: 5px;
+  right: 50px;
+}
+
+.userMessage-delete:hover {
+  color: red;
+}
+
+.edit-message {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+  height: 50px;
+  background-color: #4b4d4a;
+  color: #fff;
+  outline: none;
+  padding-left: 10px;
+}
+
+.edit  {
+  display: flex;
+  align-items: center;
+}
+
+.userMessage-wrapper__edit {
+  height: 110px;
+}
+
+.edit-save, 
+.edit-cancel {
+  width: 80px;
+  height: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;  
+  text-transform: lowercase;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.edit-controller {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.edit-save {
+  background-color: rgb(21, 189, 21);
+  margin-bottom: 10px;
+}
+
+.edit-save:hover {
+  background-color: rgb(5, 95, 5)
+}
+
+.edit-cancel {
+  background-color: rgb(248, 50, 50);
+}
+
+.edit-cancel:hover {
+  background-color: rgb(192, 8, 8);
+}
+
+
+.userMessage-edit {
+  background-image: url('../../images/icons8-edit-64.png');
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+}
+
+.userMessage-edit:hover {
+  background-image: url('../../images/green.png');
+}
+
+.userMessage-favorite {
+  background-image: url('../../images/nolike.png');
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+}
+
+.userMessage-favorite__like {
+  background-image: url('../../images/like.png');
+}
+
+span.userMessage-delete__position {
+ right: 5px;
+}
