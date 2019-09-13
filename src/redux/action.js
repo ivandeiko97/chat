@@ -59,7 +59,6 @@ export function addFavoriteAction(id) {
 };
 
 export function editMessageAction(id, value) {
-  console.log(value)
   return {
     type: EDIT_MESSAGE,
     id,
